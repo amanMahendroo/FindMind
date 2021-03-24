@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --accent: #004;
+    --base: #fff;
+}
+
+.main {
+    background: var(--accent);
+    width: 100vw;
+    height: 100vh;
+    color: var(--base);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80vw;
+    min-width: 800px;
+    height: 80vh;
+    background: var(--base);
+    position: relative;
+    top: 10vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.5rem;
+    display: inline;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.left {
+    width: 25%;
+    height: 100%;
+    background: var(--accent);
+    opacity: 70%;
+    padding: 100px;
+    float: left;
+}
+
+.left img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.right {
+    width: calc(75% - 400px);
+    height: 100%;
+    opacity: 70%;
+    padding: 100px;
+    position: absolute;
+    right: 0;
+    color: var(--accent);
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid var(--accent);
+    font-size: 1.5rem;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+a {
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.button {
+    width: 100%;
+    max-width: calc(48vw - 200px);
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5rem;
+    margin: 20px 0;
+    background: var(--accent);
+    color: var(--base);
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+

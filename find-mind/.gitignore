@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/find-mind/node_modules
 /.pnp
 .pnp.js
 

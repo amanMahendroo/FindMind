@@ -19,6 +19,7 @@
     position: absolute;
     right: 75px;
     top: 2.5px;
+    cursor: pointer;
 }
 
 .nav .profile img {
@@ -49,9 +50,10 @@
 }
 
 .list :is(.add-task, .task) {
-    height: 50px;
+    min-height: 50px;
     line-height: 50px;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .list :is(.add, .done) {
@@ -75,4 +77,22 @@
     font-size: 70px;
     right: 10px;
     bottom: 0;
+    cursor: pointer;
+}
+
+.list .brief {
+    margin-left: 60px;
+    margin-top: -20px;
+    font-size: 0.8rem;
+}
+
+.list .date {
+    background: #eee;
+    margin-left: 60px;
+    font-size: 0.6rem;
+    height: 20px;
+    line-height: 20px;
+    width: 70px;
+    text-align: center;
+    margin-top: -10px;
 }

@@ -26,8 +26,8 @@ export default class SignIn extends Component {
                         <input type="password" placeholder="Password" /><br />
                         <input type="checkbox" /> Remember me<br />
                         <a href='/'>Forgot Password?</a><br />
-                        <Link to="/" className="button">Log In</Link>
-                        <Link to="/" className="button">Sign Up</Link>
+                        <Link to="/dashboard" className="button">Log In</Link>
+                        <Link to="/dashboard" className="button">Sign Up</Link>
                     </div>
                 </div>
             </div>

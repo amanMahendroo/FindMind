@@ -15,7 +15,7 @@ const api = axios.create({
 
 export default class Home extends Component {
 	sampleList = {
-		title: "My Tasks",
+		title: "My Tasks3",
 		active: [],
 		completed: []
 	}
@@ -56,7 +56,7 @@ export default class Home extends Component {
 					<div className="profile">
 						<img src={this.state.user.download_url} />
 					</div>
-					<Link to="/signin" className="logout"><RiLogoutBoxLine /></Link>
+					<Link to="/" className="logout"><RiLogoutBoxLine /></Link>
 				</div>
 				<div className="dashboard">
 					{this.state.lists}
